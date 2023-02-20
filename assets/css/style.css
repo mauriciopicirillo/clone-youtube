@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.ttf') format('truetype');
+    src: url('Roboto-Light.ttf') format('truetype');
+}
+
+.tamanho-pagina {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+figure {
+    margin: 0px;
+}
+
+/* header inicio*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 32px;
+    position: absolute;
+    width: 1440px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+}
+
+.menu-lado-esquerdo {
+    width: 146px;
+    height: 24px;
+}
+
+.logo {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    left: 80px;
+    top: 18px;
+
+}
+
+.menu {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 24px;
+    top: 16px;
+}
+
+.linha1 {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 25%;
+    bottom: 75%;
+    border: 2px solid #000000;
+}
+
+.linha2 {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 50%;
+    bottom: 50%;
+    border: 2px solid #000000;
+}
+
+.linha3 {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 75%;
+    bottom: 25%;
+    border: 2px solid #000000;
+}
+
+.menu-centro {
+    width: 404px;
+    height: 40px;
+    top: 8px;
+    left: 526px;
+}
+
+.retangulo1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 348px;
+    height: 40px;
+    left: 526px;
+    top: 8px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+.retangulo2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 57px;
+    height: 40px;
+    left: 873px;
+    top: 8px;
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;  
+} 
+
+.search {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 887px;
+    top: 16px;
+}
+
+.menu-lado-direito {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+    gap: 24px;
+    width: 130px;
+    height: 34px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+}
+
+/* header fim */
+
+
+/* main inicio */
+.corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 952px;
+    height: 746px;
+    left: 75px;
+    top: 84px;
+    
+}
+
+.dio {
+    margin: 0px;
+}
+
+.semana-front {
+    width: 871px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin: 0px;
+}
+
+.acoes-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 42px;
+    width: 902px;
+    height: 42px;
+}
+
+.channel-infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 160px;
+    height: 42px;
+}
+
+
+.channel-texto {
+    width: 106px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.botao-inscreva-se {
+    width: 159px;
+    height: 40px;
+    background: #CC0000;
+    border-radius: 2px;
+} 
+
+.inscreva-se {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 35px;
+}
+
+.like, .deslike, .share, .download {
+    margin: 0;
+}
+
+
+.visualizacoes {
+    width: 391px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0px;
+}
+
+.inicie-aventura {
+    width: 510px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #515151;
+    margin: 0px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 160px;
+    height: 938px;
+    left: 1052px;
+    top: 84px;
+}
+
